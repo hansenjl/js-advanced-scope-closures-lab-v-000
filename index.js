@@ -1,7 +1,7 @@
 function produceDrivingRange(num){
   console.log(num)
   return function (trip, num){
-    console.log(num - th)
+    console.log(parseInt(num))
     console.log(trip)
     if(num > trip ){
       return `within range by ${num-trip} .`
