@@ -1,5 +1,5 @@
 function produceDrivingRange(num){
-  function(trip){
+  function calculate(trip){
     if(num < trip ){
       return true
     } else {
