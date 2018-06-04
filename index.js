@@ -3,6 +3,7 @@ function produceDrivingRange(num){
   return function (trip, num){
     let n = parseInt(num)
     let t = parseInt(trip)
+    console.log(n)
     if(n > t ){
       return `within range by ${n-t} .`
     } else {
