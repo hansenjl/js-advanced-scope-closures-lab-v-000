@@ -3,7 +3,7 @@ function produceDrivingRange(num){
     if(num > trip ){
       return `${num-trip} blocks within range.`
     } else {
-      return `${trip-num} blocks outside of range.`
+      return `${trip-num} blocks out of range.`
     }
   }
 }
