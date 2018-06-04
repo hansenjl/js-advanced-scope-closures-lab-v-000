@@ -12,3 +12,9 @@ function produceDrivingRange(num){
     }
   }
 }
+
+function produceTipCalculator(dec){
+  return function(amount){
+    return dec * amount
+  }
+}
