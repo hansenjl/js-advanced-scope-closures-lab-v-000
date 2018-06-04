@@ -6,9 +6,9 @@ function produceDrivingRange(num){
     let distance = Math.abs(s - e)
     console.log(distance)
     if(num > distance ){
-      return `within range by ${num-distance} .`
+      return `within range by ${num-distance}`
     } else {
-      return `${distance-num} blocks out of range.`
+      return `${distance-num} blocks out of range`
     }
   }
 }
