@@ -4,7 +4,7 @@ function produceDrivingRange(num){
     let s = parseInt(start)
     let e = parseInt(end)
     let distance = s - e
-
+    console.log(distance)
     if(num > distance ){
       return `within range by ${num-distance} .`
     } else {
