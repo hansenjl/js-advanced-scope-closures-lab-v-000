@@ -6,9 +6,9 @@ function produceDrivingRange(num){
     let distance = s - e
 
     if(num > distance ){
-      return `within range by ${n-t} .`
+      return `within range by ${num-distance} .`
     } else {
-      return `${t-n} blocks out of range.`
+      return `${distance-num} blocks out of range.`
     }
   }
 }
