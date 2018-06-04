@@ -1,12 +1,12 @@
 function produceDrivingRange(num){
   console.log(num)
   return function (trip, num){
-    console.log(parseInt(num))
-    console.log(trip)
-    if(num > trip ){
-      return `within range by ${num-trip} .`
+    let n = parseInt(num)
+    let t = parseInt(trip)
+    if(n > t ){
+      return `within range by ${n-t} .`
     } else {
-      return `${trip-num} blocks out of range.`
+      return `${t-n} blocks out of range.`
     }
   }
 }
